@@ -1,0 +1,27 @@
+<script type="text/javascript">
+
+        function togDisp(){
+
+            objWait = document.getElementById('waitLayer');
+
+            objWait.style.display="none";
+
+            objFrame = document.getElementById('ipFrame');
+
+            objFrame.style.display="block";
+
+        }
+
+        </script>
+
+        <div id="waitLayer" style="width:500px; height:250px; display:block; text-align:center; vertical-align:middle" >
+
+        Please wait..
+
+        </div>
+
+        <IFRAME id="ipFrame" style="width:500px; height:250px; display:none"
+
+        SRC="https://farra.iplaser.com/app/Public/frameLogin.aspx" ALLOWTRANSPARENCY="true" frameborder="no"
+
+        onload="togDisp()" >
