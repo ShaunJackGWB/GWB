@@ -1,3 +1,5 @@
+<!--
+
 <script type="text/javascript">
 
         function togDisp(){
@@ -25,3 +27,5 @@
         SRC="https://farra.iplaser.com/app/Public/frameLogin.aspx" ALLOWTRANSPARENCY="true" frameborder="no"
 
         onload="togDisp()" >
+
+-->
